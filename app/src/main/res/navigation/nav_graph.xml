@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFrag">
+    <fragment
+        android:id="@+id/splashScreenFrag"
+        android:name="com.example.citylink.ui.fragments.SplashScreenFrag"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFrag_to_googleLogin"
+            app:destination="@id/googleLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleLogin"
+        android:name="com.example.citylink.ui.fragments.GoogleLogin"
+        android:label="fragment_google_login"
+        tools:layout="@layout/fragment_google_login" >
+        <action
+            android:id="@+id/action_googleLogin_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.citylink.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_busStopsNearMe"
+            app:destination="@id/busStopsNearMe"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_homeFragment_to_trackingFragment"
+            app:destination="@id/trackingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_googleLogin"
+            app:destination="@id/googleLogin" />
+        <action
+            android:id="@+id/action_homeFragment_to_alerts"
+            app:destination="@id/alerts" />
+        <action
+            android:id="@+id/action_homeFragment_to_transactions"
+            app:destination="@id/transactions" />
+        <action
+            android:id="@+id/action_homeFragment_to_tripHistory"
+            app:destination="@id/tripHistory" />
+        <action
+            android:id="@+id/action_homeFragment_to_userSettings"
+            app:destination="@id/userSettings" />
+    </fragment>
+    <fragment
+        android:id="@+id/busStopsNearMe"
+        android:name="com.example.citylink.ui.fragments.BusStopsNearMe"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_busStopsNearMe_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackingFragment"
+        android:name="com.example.citylink.ui.fragments.trackingFragment"
+        android:label="fragment_tracking"
+        tools:layout="@layout/fragment_tracking" >
+        <action
+            android:id="@+id/action_trackingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_trackingFragment"
+        app:destination="@id/trackingFragment" />
+    <fragment
+        android:id="@+id/alerts"
+        android:name="com.example.citylink.ui.fragments.Alerts"
+        android:label="fragment_alerts"
+        tools:layout="@layout/fragment_alerts" >
+        <action
+            android:id="@+id/action_alerts_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_alerts"
+        app:destination="@id/alerts" />
+    <fragment
+        android:id="@+id/transactions"
+        android:name="com.example.citylink.ui.fragments.Transactions"
+        android:label="fragment_transactions"
+        tools:layout="@layout/fragment_transactions" >
+        <action
+            android:id="@+id/action_transactions_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tripHistory"
+        android:name="com.example.citylink.ui.fragments.TripHistory"
+        android:label="fragment_trip_history"
+        tools:layout="@layout/fragment_trip_history" >
+        <action
+            android:id="@+id/action_tripHistory_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userSettings"
+        android:name="com.example.citylink.ui.fragments.UserSettings"
+        android:label="fragment_user_settings"
+        tools:layout="@layout/fragment_user_settings" >
+        <action
+            android:id="@+id/action_userSettings_to_googleLogin"
+            app:destination="@id/googleLogin" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_googleLogin"
+        app:destination="@id/googleLogin" />
+
+</navigation>

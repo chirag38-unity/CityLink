@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:background="@drawable/slider_dialog_bg"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="You are about to deboard :"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/deboarding_dialog_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="Bus - 123A"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <com.ncorti.slidetoact.SlideToActView
+            android:id="@+id/bus_deboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            app:area_margin="4dp"
+            app:animation_duration="250"
+            app:outer_color="@color/red"
+            app:inner_color="@color/white"
+            app:border_radius="2dp"
+            app:text="Swipe to deboard"
+            app:text_size="18sp"
+            app:slider_height="70dp"
+            app:slider_locked="false"
+            app:bump_vibration="500"
+            app:slider_icon="@drawable/user_boarded_icon"
+            app:complete_icon="@drawable/user_walk_icon"
+            app:animate_completion="true"
+            app:slider_reversed="true"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/dialog_bg"
+        android:elevation="5dp"
+        android:padding="15dp"
+        android:src="@drawable/bus_boarding_ticket_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="nav_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/home_icon"
+            android:title="Home"/>
+        <item
+            android:id="@+id/busStopsNearMe"
+            android:icon="@drawable/bus_stop_icon"
+            android:title="Bus Stops Near Me"/>
+        <item
+            android:id="@+id/alerts"
+            android:icon="@drawable/bus_alert"
+            android:title="Bus Alerts"/>
+        <item
+            android:id="@+id/tripHistory"
+            android:title="Travel History"
+            android:icon="@drawable/trip_history"/>
+        <item
+            android:id="@+id/userSettings"
+            android:title="User Settings"
+            android:icon="@drawable/user_settings_icon"/>
+
+    </group>
+    </menu>
