@@ -12,61 +12,60 @@ experience. It will include features such as the live location of buses, route o
 e-ticketing
 
 # Flowchart of the proposed system
-<img width="400" alt="system flowchart" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/cee10346-9975-48bd-aa1c-1c41af775d8b">
+<img width="502" alt="image" src="https://github.com/chirag38-unity/CityLink/assets/90930534/63e8df59-7948-465e-8729-b51839ad2b98">
 
 # Screenshots of the application
 
 users get an e-mail with a deep link to open the application:
 
-<img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/88bbc9ac-39b0-461a-b52f-8a293166e2d4">
+<img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink/assets/90930534/b24b075c-ba23-4f22-8ec0-65491936429b">
 
 Set of permissions needed:
 
-<img width="400" alt="permissions" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/2c033712-9b46-4406-86e0-e37e958eb8c3">          <img width="400" alt="permission" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/1dbfa5e1-3995-4e24-8365-b0081dca4128">
-<img width="400" alt="permission" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/c0843d7c-51c9-4ae0-828f-58b5f0fef78b">        <img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/e054254c-2e83-4f13-b564-4221fdfe6233">
+<img width="400" alt="permissions" src="https://github.com/chirag38-unity/CityLink/assets/90930534/36d7bcb0-7e7b-48eb-ad6d-0e1d5f319000">          <img width="400" alt="permission" src="https://github.com/chirag38-unity/CityLink/assets/90930534/e568c754-45f4-40f6-94e5-8b42d8b183cb">
+<img width="400" alt="permission" src="https://github.com/chirag38-unity/CityLink/assets/90930534/155ac3bc-3de9-475d-a8f2-0d5494314f75">        <img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink/assets/90930534/9bb5d04f-cb17-4faa-b712-2e36593a8c61">
 
 Splash Screen and login action:
 
-<video width="400" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/fcd2a7bf-0971-4a9b-8cce-3b6018c3528c"></video>
+<video width="400" src="https://github.com/chirag38-unity/CityLink/assets/90930534/6dab44ee-e6a3-4bc4-b455-2d02b5aa1663"></video>
 
 
 User Login and Home Page:
 
-<img width="400" alt="user login" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/335cf9e1-6d4a-40cc-b59c-4ffad7ff97a3">    <img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/75aa80ab-16aa-4497-b23d-d556e1549509">
+<img width="400" alt="user login" src="https://github.com/chirag38-unity/CityLink/assets/90930534/f661840d-93ba-424d-bcf6-f0aa4bf8a41c">    <img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink/assets/90930534/9267b63c-e8fb-4f93-9917-98958738286a">
 
 Users can add money and get access to transaction history:
 
-<img width="250" alt="adding money" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/fe53e3ca-9d5e-46a9-9fcf-2c5042aa5ca3"> <img width="250" alt="Conformaation" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/167f10ed-5331-4f78-8e45-700e52cc7956"> <img width="250" alt="transaction history" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/71a5b1c2-87ea-496c-b860-05a16dc4359b">
+<img width="250" alt="adding money" src="https://github.com/chirag38-unity/CityLink/assets/90930534/4dd880dd-e182-4a61-86f6-9e24195cb33c"> <img width="250" alt="Conformaation" src="https://github.com/chirag38-unity/CityLink/assets/90930534/7b8b5748-f151-4954-ab30-a3f7d107ebd6"> <img width="250" alt="transaction history" src="https://github.com/chirag38-unity/CityLink/assets/90930534/57e0b27f-0c48-4549-952d-df0d73df55c2">
 
 Users can be notified about the issues different users face on their routes:
 
-<img width="400" alt="add alert" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/cbc93ac5-c890-4a9c-ac6b-cb934b20aaf6"> <img width="400" alt="adding money" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/40673899-a70e-4c5c-898c-df943e0493ea">
-<img width="400" alt="adding alert" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/19367c54-925c-4200-8ba7-1f974298ec4a"> <img width="400" alt="alert list" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/6dc4beea-ed89-4bf5-ad25-5d62d37c6beb">
+<img width="400" alt="add alert" src="https://github.com/chirag38-unity/CityLink/assets/90930534/b9af43b2-ddb8-471d-a296-0b87e9abe6cb"> <img width="400" alt="adding money" src="https://github.com/chirag38-unity/CityLink/assets/90930534/678cd213-1883-4e6e-bb80-5a7b2092e232">
+<img width="400" alt="adding alert" src="https://github.com/chirag38-unity/CityLink/assets/90930534/81c744ec-5a91-4a6e-9e7b-9a39914243e3"> <img width="400" alt="alert list" src="https://github.com/chirag38-unity/CityLink/assets/90930534/63d6c174-ebc1-44f3-9c64-e55714178760">
 
 Users can see bus stops near them:
 
-<img width="400" alt="bus stops nearby" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/b4c92d88-3d15-4ebd-bee9-55bf470b42fc">
+<img width="400" alt="bus stops nearby" src="https://github.com/chirag38-unity/CityLink/assets/90930534/220806a3-33f6-4c35-9614-38ec823c1efc">
 
 When a bus is in the user's vicinity they get notified :
 
-<img width="400" alt="bus is nearby" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/94e8309e-fa30-4b35-80a4-35fed8ea8a3e)">
+<img width="400" alt="bus is nearby" src="https://github.com/chirag38-unity/CityLink/assets/90930534/edbcdbdc-f510-421e-8844-ef266dc2855a">
 
 If the bus keeps on approaching, the user is asked whether they want to board the bus and start tracking their journey:
 
-<img width="250" alt="email to user" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/2f8ed9c7-6f14-470f-97a6-5aa38239a018"> <img width="250" alt="tracking user" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/d025efe9-c9e1-4ec7-969f-e8eacebde844"> <img width="250" alt="background tracking" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/5525a0e3-788a-439f-8515-8642dccf820d">
+<img width="250" alt="email to user" src="https://github.com/chirag38-unity/CityLink/assets/90930534/a9391854-9cd6-42f0-b5dc-654c4509cccf"> <img width="250" alt="tracking user" src="https://github.com/chirag38-unity/CityLink/assets/90930534/d6df9695-edb1-4c32-97ea-6b0f9695e75f"> <img width="250" alt="background tracking" src="https://github.com/chirag38-unity/CityLink/assets/90930534/ed3e9ade-961a-42d3-900d-d12e35805524">
 
 At the end of the journey, the user is asked whether they want to deboard the bus and stop the tracking service:
 
-<img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/51a88f3a-dbe8-4549-a634-3fc870450675">
+<img width="400" alt="email to user" src="https://github.com/chirag38-unity/CityLink/assets/90930534/1ceda5b8-066b-4dbb-8f83-56bc8126a91f">
 
 The trip summary is displayed and recorded:
 
-<img width="400" alt="trip summary" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/93e35c2e-4043-4c94-9ae3-8fcb9677f795"><img width="400" alt="trip list" src="https://github.com/chirag38-unity/CityLink-Private/assets/90930534/e54f6a9c-afb2-41a2-b1ff-e4d4c93ca03f">
+<img width="400" alt="trip summary" src="https://github.com/chirag38-unity/CityLink/assets/90930534/3bd759c0-eb3c-4b78-a424-ef8113863b3e"><img width="400" alt="trip list" src="https://github.com/chirag38-unity/CityLink/assets/90930534/cd0e442c-6064-4cc8-b4a6-a69646644b03">
 
 # Methodology
 
-* Research design: Tracking user’s journey and deducting traveling fare from the in-built e-wallet to avoid free
-rider problem.
+* Research design: Tracking user’s journey and deducting traveling fare from the in-built e-wallet to avoid free-rider problem.
 * Participants: The system targets daily commuters of local buses.
 * GPS Tracking:
 GPS (Global Positioning System) tracking is a technology that uses satellites to determine the precise
