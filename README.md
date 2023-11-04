@@ -1,4 +1,4 @@
-# Citylink- A Bus Management Application
+# Citylink- A GPS Based Bus Traversal Application
 
 The current bus traversal and management system suffers from various challenges such as
 inefficient resource allocation, lack of real-time monitoring, and manual handling of operations,
